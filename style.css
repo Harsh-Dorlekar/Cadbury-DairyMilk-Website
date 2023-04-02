@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Josefin+Sans&family=Montserrat&family=Poppins:wght@600&family=Raleway&family=Rubik:wght@300&display=swap");
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+::selection {
+  background-color: #d1a18c;
+}
+body {
+  background-color: #49267a;
+  height: 100vh;
+}
+header {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  height: 60vh;
+}
+.arrowupbtn a {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 47%;
+}
+.arrowupbtn img {
+  width: 60px;
+}
+.navbar nav {
+  height: 100vh;
+  width: 50vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  animation: ani1 1s ease-in;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -350px;
+}
+.navbar a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+.navbar a:after {
+  content: "";
+  position: absolute;
+  background-color: #ff3c78;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+.navbar a:hover:after {
+  width: 100%;
+}
+.nextsection {
+  margin-top: 46rem;
+}
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #a18cd1;
+  text-align: center;
+  margin-top: 2rem;
+  animation: ani1 1s ease-in;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  animation: float 3s linear infinite;
+  padding: 1rem;
+}
+.image img {
+  width: 700px;
+}
+p {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.text {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  padding: 3rem;
+  font-size: 25px;
+}
+.Products {
+  margin-top: 4rem;
+  height: 100vh;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+.img1 {
+  display: grid;
+  grid-template-columns: repeat(1);
+  line-height: 8rem;
+}
+.img1 p {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 15px;
+}
+.mnore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+.mnore a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.mnore a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+.Recipe {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10rem;
+  gap: 10rem;
+  width: 100%;
+}
+.perbag h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+.typicalvalues h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+.boxes,
+.listintruction {
+  margin-top: 5rem;
+  width: 100%;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  width: 100%;
+}
+.boxes .box {
+  background-color: whitesmoke;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  width: 100%;
+  pointer-events: none;
+}
+.box p {
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  width: 100%;
+}
+.secondpaar,
+.thrid {
+  margin-top: 2rem;
+  width: 100%;
+}
+.secondpaar p {
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.thrid h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  width: 100%;
+}
+.thrid p {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 1.5rem;
+  line-height: 25px;
+  width: 100%;
+}
+.listintruction {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.listintruction p {
+  font-size: 16px;
+  width: 100%;
+}
+.nutr p,
+.calrious p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+  width: 100%;
+}
+.footer {
+  background-color: #1e1e1e;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  text-align: left;
+}
+.logo-container img {
+  position: relative;
+  margin-left: 2%;
+}
+.contact-form {
+  padding-left: 33rem;
+  padding-right: 33rem;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+.contact-form h3 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+.form-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  flex-basis: 40%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-row input {
+  flex-basis: 60%;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid rgb(61, 106, 255);
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  transition: all 0.2s ease-out;
+}
+
+button:hover::before {
+  animation: ani2 0.5s 0s linear;
+}
+
+button::before {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  transform: skewX(-20deg);
+}
+
+@keyframes ani2 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+button:active {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.2s ease-in;
+}
+
+@keyframes ani1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
